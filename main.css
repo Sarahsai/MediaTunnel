@@ -1,0 +1,79 @@
+/* Desktop Styles */
+@media (min-width: 1000px) {
+  .desktop {
+    display: block;
+  }
+  .tablet, .mobile {
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  body{
+    background-color: lightpink;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tablet {
+    display: block;
+  }
+  .desktop, .mobile {
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  body{
+    background-color: lightblue;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+  .desktop, .tablet {
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  body{
+    background-color: lightgreen;
+  }
+}
+
+
+/* Common Styles */
+.story {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 10rem;
+  margin: 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  color: purple;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
